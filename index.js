@@ -1,14 +1,15 @@
 const fs = require("fs");
-const path = require('path');
+// const path = require('path'); ????
 const inquirer = require("inquirer");
 const util = require('util');
 const generateMarkdown = require("./utils/generateMarkdown");
 const writeToFile = util.promisify(fs.writeFile);
 let licenseChosed = "";
+
 // function to initialize program
 function init() {
 
-    // List of questions for user
+    // Questions list
     inquirer
         .prompt([
             {
@@ -95,48 +96,47 @@ function init() {
 // Function to generate the markdown
 const generateFILE = (responses) =>
     `
-## ${responses.project}
+# ${responses.project}
+
+## ${licenseChosed} 
 
 ## Table of Contents
 
 * [Project description](#description)
-* [Process of installation](#instalation)
+* [Installation](#instalation)
+* [Usage](#usage)
 * [Contributing](#contributing)
-* [Contacts](#contacts)
-* [License](#license)
+* [Tests](tests)
+* [Questions](#questions)
+* [License](#licensed)
 
-### Description 
-
+## Description 
 ${responses.description}
 
-### Instalation 
-
+## Instalation
 ${responses.instalation}
 
-### Usage 
-
+## Usage 
 ${responses.usage}
 
-### Contributing
+## Contributing
+${responses.contributing}
 
-> ${responses.contributing}
+## Tests
+${responses.tests}
 
-### Tests
+## Questions
+>If you require any further information, feel free to contact me at:    
 
-> ${responses.tests}
+Github Profile: [${responses.github}](https://github.com/${responses.github}/)    
+Email: [${responses.email}](mailto:${responses.email})    
+LinkedIn: [${responses.linkedin}](https://linkedin.com/in/${responses.linkedin})        
 
-### Contacts
-
-If you require any further information, feel free to contact me at:
-
-* Github Profile: [${responses.github}](https://github.com/${responses.github}/)
-* Email: [${responses.email}](mailto:${responses.email})
-* LinkedIn: [${responses.linkedin}](https://linkedin.com/in/${responses.linkedin})
 ---
-### License
-Licensed under the  
-${licenseChosed}  
+
+## Licensed
+> Under the ${responses.license}
 `;
 
-// function call to initialize program
+// Function call to initialize program
 init();
