@@ -1,43 +1,42 @@
 
-## README File Generator
+## aaaaaa
 
 ## Table of Contents
 
 * [Project description](#description)
 * [Process of installation](#instalation)
 * [Contributing](#contributing)
-* [Credits](#credits)
 * [Contacts](#contacts)
 * [License](#license)
 
 ### Description 
 
-TESTE
+aaaaaa
 
 ### Instalation 
 
-TESTE
+aaaaaa
 
 ### Usage 
 
-TESTE
+aaaaaa
 
 ### Contributing
 
-> TESTE
+> aaaaaa
 
 ### Tests
 
-> TESTE
+> aaaaaa
 
 ### Contacts
 
 If you require any further information, feel free to contact me at:
 
-* Github Profile: [CZ-RBelo](https://github.com/CZ-RBelo/)
-* Email: [jr.belo@hotmail.com](mailto:jr.belo@hotmail.com)
-* LinkedIn: [ruibelo](https://linkedin.com/in/ruibelo)
+* Github Profile: [aaaaaa](https://github.com/aaaaaa/)
+* Email: [aaaaaa](mailto:aaaaaa)
+* LinkedIn: [aaaaaa](https://linkedin.com/in/aaaaaa)
 ---
 ### License
-Licensed under the    
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+Licensed under the  
+Check your License!  
