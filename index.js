@@ -14,54 +14,54 @@ function init() {
         .prompt([
             {
                 type: 'email',
-                message: 'Please, enter your email adress',
+                message: 'Please, enter your email address:',
                 name: 'email',
             },
             {
                 type: 'input',
-                message: 'Please, enter your github id?',
+                message: 'Please, enter your GitHub id:',
                 name: 'github',
             },
             {
                 type: 'input',
-                message: 'Please, enter your linkedin id?',
+                message: 'Please, enter your LinkedIn link:',
                 name: 'linkedin',
             },
             {
                 type: 'input',
-                message: 'Please, enter the title of your project: ',
+                message: 'Please, enter the title of your project:',
                 name: 'project',
             },
             {
                 type: 'input',
-                message: 'Please, enter the description of your project: ',
+                message: 'Please, enter the description of your project:',
                 name: 'description',
             },
             {
                 type: 'input',
-                message: 'Please, enter the installation instructions: ',
-                name: 'instalation',
+                message: 'Please, enter the installation instructions:',
+                name: 'installation',
             },
             {
                 type: 'input',
-                message: 'Please, enter the usage information: ',
+                message: 'Please, enter the usage information:',
                 name: 'usage',
             },
             {
                 type: 'input',
-                message: 'Please, enter the contribution guidelines: ',
+                message: 'Please, enter the contribution guidelines:',
                 name: 'contributing',
             },
             {
                 type: 'input',
-                message: 'Please, enter the test instructions: ',
+                message: 'Please, enter the test instructions:',
                 name: 'tests',
             },
             {
                 type: 'list',
-                message: 'Please, chose the license: ',
+                message: 'Please, chose the license:',
                 name: 'license',
-                choices: ['The MIT License', 'Apache 2.0 License', 'GNU GPL v3', 'BSD 3-Clause License', 'None']
+                choices: ['The MIT License', 'Apache 2.0 License', 'GNU GPL v3 License', 'BSD 3-Clause License', 'None']
             },
         ])
 
@@ -86,7 +86,7 @@ function init() {
             };
 
             // Function to write README file
-            writeToFile('README.md', generateFILE(responses))
+            writeToFile('README-GEN.md', generateFILE(responses))
                 .then(() => console.log('Good news, your profissional high-quality README File was created with success!'))
                 .catch((err) => console.error(err))
         });
@@ -113,8 +113,8 @@ const generateFILE = (responses) =>
 ## Description 
 ${responses.description}
 
-## Instalation
-${responses.instalation}
+## Installation
+${responses.installation}
 
 ## Usage 
 ${responses.usage}
