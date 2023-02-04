@@ -70,7 +70,9 @@ As a result, the app will generate a Markdown file called README-GEN.md
 
 ## Application functionality walkthrough video
 
->[Walkthrough Video](assets/Walkthrough-Video.mp4)
+[Walkthrough Video](assets/Walkthrough-Video.mp4)
+
+>Due to the video file size, it needs to be downloaded to play.
 
 ## Contributing
 
