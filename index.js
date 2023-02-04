@@ -75,7 +75,7 @@ function init() {
                 case 'Apache 2.0 License':
                     licenseChosed = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
                     break;
-                case 'GNU GPL v3':
+                case 'GNU GPL v3 License':
                     licenseChosed = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
                     break;
                 case 'BSD 3-Clause License':
@@ -87,7 +87,7 @@ function init() {
 
             // Function to write README file
             writeToFile('README-GEN.md', generateFILE(responses))
-                .then(() => console.log('Good news, your profissional high-quality README File was created with success!'))
+                .then(() => console.log('Good news, your profissional high-quality README-GEN File was created with success!'))
                 .catch((err) => console.error(err))
         });
 };
@@ -98,17 +98,15 @@ const generateFILE = (responses) =>
     `
 # ${responses.project}
 
-## ${licenseChosed} 
-
 ## Table of Contents
 
 * [Project description](#description)
-* [Installation](#instalation)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Tests](tests)
-* [Questions](#questions)
-* [License](#licensed)
+* [Tests](#tests)
+* [Contact Details](#contact-details)
+* [License](#license)
 
 ## Description 
 ${responses.description}
@@ -125,7 +123,7 @@ ${responses.contributing}
 ## Tests
 ${responses.tests}
 
-## Questions
+## Contact Details
 >If you require any further information, feel free to contact me at:    
 
 Github Profile: [${responses.github}](https://github.com/${responses.github}/)    
@@ -134,8 +132,8 @@ LinkedIn: [${responses.linkedin}](https://linkedin.com/in/${responses.linkedin})
 
 ---
 
-## Licensed
-> Under the ${responses.license}
+## License
+${licenseChosed}
 `;
 
 // Function call to initialize program

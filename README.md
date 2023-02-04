@@ -1,5 +1,18 @@
 # README Generator
 
+## Table of Contents
+
+* [The repository](#repository)
+* [Project description](#description)
+* [Instructions](#instructions)
+* [Technology used](#built-with)
+* [Walkthrough video](#application-functionality-walkthrough-video)
+* [Contributing](#contributing)
+* [APP Links](#app-links)
+* [Credits](#credits)
+* [Contact me](#contact-details)
+* [License](#license)
+
 ## Repository
 
 An open-source web app to quickly and easily create a README file by using a command-line application to generate one. 
@@ -22,21 +35,32 @@ Such as:
 and links to:
 * Github Profile    
 * Email    
-* LinkedIn    
+* LinkedIn
 
-## Instr
+## Instructions
 
-## Table of Contents
+The application can be invoked by using the following command:
 
-* [The repository](#repository)
-* [Project description](#description)
-* [Mock-Up](#mock-Up)
-* [Contributing](#contributing)
-* [Links](#links)
-* [Credits](#credits)
-* [License](#license)
+```bash
+node index.js
+```
 
-### Built with
+After, the user will be prompted to enter the following details:
+
+* The email address
+* The GitHub id
+* The LinkedIn link
+* The title of your project
+* The description of your project
+* The installation instructions
+* The usage information
+* The contribution guidelines
+* The test instructions
+* Choose the license from The MIT License; The Apache 2.0 License;  GNU GPL v3 License; The BSD 3-Clause License, or None.
+
+As a result, the app will generate a Markdown file called README-GEN.md
+
+## Built with
 
 * HTML
 * CSS
@@ -44,13 +68,13 @@ and links to:
 * jQuery
 * moments.js
 
-### Mock-Up
+## Application functionality walkthrough video
 
 The images below illustrates the Weather Dashboard web page appearance:    
 
 https://user-images.githubusercontent.com/91415469/210137964-0889ef4f-f280-4cae-834d-6cb76446f63f.mp4
 
-### Contributing
+## Contributing
 
 Why you should contribute to an open-source project?  
 Contributing to open-source is a rewarding way to learn, teach, and build experience in just about any skill.
@@ -67,18 +91,18 @@ Ways you can contribute:
 >If you want to give feedback or report an issue, please create a [new GitHub issue](https://github.com/CZ-RBelo/README-Generator/issues/new).  
 >**Please check if a topic about your issue already exists!**
 
-### Links
+## APP Links
 
 * [Github Repository](https://github.com/CZ-RBelo/README-Generator)
 * [Deployed Application](https://cz-rbelo.github.io/README-Generator)
 
-### Credits
+## Credits
 
 * [The New York Times API](https://www.nytimes.com/)
 * [OpenWeather API](https://openweathermap.org/)
 * [Bootstrap](https://getbootstrap.com/)
 
-### Contacts
+## Contact Details
 
 If you require any further information, feel free to contact me at:
  
@@ -87,5 +111,5 @@ If you require any further information, feel free to contact me at:
 * LinkedIn: [Rui Belo](https://linkedin.com/in/ruibelo)
 
 ---
-### License:   
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/CZ-RBelo/README-Generator/blob/main/LICENSE)
+## License 
+>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/CZ-RBelo/README-Generator/blob/main/LICENSE)
