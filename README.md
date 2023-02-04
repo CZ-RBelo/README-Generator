@@ -70,9 +70,7 @@ As a result, the app will generate a Markdown file called README-GEN.md
 
 ## Application functionality walkthrough video
 
-The images below illustrates the Weather Dashboard web page appearance:    
-
-https://user-images.githubusercontent.com/91415469/210137964-0889ef4f-f280-4cae-834d-6cb76446f63f.mp4
+>[Walkthrough Video](assets/Walkthrough-Video.mp4)
 
 ## Contributing
 
