@@ -98,9 +98,7 @@ Ways you can contribute:
 
 ## Credits
 
-* [The New York Times API](https://www.nytimes.com/)
-* [OpenWeather API](https://openweathermap.org/)
-* [Bootstrap](https://getbootstrap.com/)
+
 
 ## Contact Details
 
