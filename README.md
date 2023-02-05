@@ -66,7 +66,6 @@ As a result, the app will generate a Markdown file called README-GEN.md
 * CSS
 * JavaScript
 * jQuery
-* moments.js
 
 ## Application functionality walkthrough video
 
